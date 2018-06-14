@@ -1,0 +1,47 @@
+<div class="container">
+    <h1>Complete Status About Requests</h1>
+    <form>
+      <div class="form-group">
+        <label >Brass Ring ID:</label>
+        <input type="text" class="form-control" id="brassid" required>
+      </div>
+<br>
+      <div class="form-group">
+        <label >Status:</label>
+        <select id="view" >
+            <option selected="selected">Select Status</option>
+            <option >Not Started</option>
+            <option >In Progress</option>
+            <option >Completed</option>
+        </select>
+
+      </div>
+      <br>
+     <div class="form-group">
+        <label for="profilesourced">Profile Sourced:</label>
+        <input type="text" class="form-control" id="noofresources">
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="designation">Profile Shortlisted</label>
+        <input type="text" class="form-control" id="profileshortlisted">
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="minexperience">Interview Scheduling:</label>
+        <input type="text" class="form-control" id="interviewschedule">
+      </div>
+      <br>
+      <div class="form-group">
+        <label for=" linemanager"> Offers Rolled:</label>
+        <input type="text" class="form-control" id="offersrolled">
+      </div>
+      <br>
+      <div class="form-group">
+        <label for=" linemanager"> Joining Date:</label>
+       <input type="date" name="bday" id="joiningdate">
+      </div>
+ <br>
+      <button type="submit" (click)="myClickFunction($event)">Update</button>
+    </form>
+</div>
